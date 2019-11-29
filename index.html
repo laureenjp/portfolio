@@ -30,34 +30,33 @@
         <header>
             
             
-            <nav class="navbar navbar-expand-md bg-light navbar-light">
+            <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
                 
             <div class="container">
-                <button class="navnar-toggler"
+                <a class="navbar-brand" href="/">Laureen</a>
+                    <button class="navnar-toggler"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#MonMenu"
-                        aria-controles
-                        
-                        
-                        
+                        data-target="#monMenu"
+                        aria-controls="monmenu"
+                        aria-label="Menu pour mobile"
                         >
+                        <span class="navbar-toggler-icon" ></span>
+                    </button>
                 
                 
+                    <div class=" collapse navbar-collapse" id="monMenu">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-item nav-link" href="/">Home</a>
+                            <a class="nav-item nav-link" href="#presentation">Présentation</a>
+                            <a class="nav-item nav-link" href="#competences">Compétences</a>
+                            <a class="nav-item nav-link" href="#realisations">Réalisation</a>
+                        <a class="nav-item nav-link" href="#contact">Contact</a>
+                        </div>
                 
                 
-                
-                </button>
-                
-               <a class="navbar-brand" href="/">Laureen</a>
-                
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="/">Home</a>
-                    <a class="nav-item nav-link" href="/">Présentation</a>
-                    <a class="nav-item nav-link" href="/">Compétences</a>
-                    <a class="nav-item nav-link" href="/">Réalisation</a>
-                    <a class="nav-item nav-link" href="/">Contact</a>
-                </div> 
+                </div>
+                 
                 
                 
                 
@@ -88,7 +87,7 @@
 <!-- PRESENTATIONS
 ==============================================-->       
         
-    <section class="presentation">
+    <section class="presentation" id="presentation">
       <div class="container">
           <div class="row">
               <div class="col-md-12">
@@ -113,7 +112,7 @@
 <!-- COMPETENCES
 ==============================================-->      
         
-    <section class="competence">
+    <section class="competence" id="competences">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -316,7 +315,7 @@
 <!-- REALISATIONS 
 ==============================================--> 
         
-        <section class="realisations">
+        <section class="realisations" id="realisations">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -427,7 +426,7 @@
 <!-- CONTACT
 ==============================================--> 
         
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
