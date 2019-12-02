@@ -13,7 +13,8 @@
     - H3 #000
 
     - Background #f0d3bd
-    - Hover #d3a389
+    - Hover contact #ffe5d8
+    - Hover Menu #9d745e
 
     - Icones #000
 
@@ -46,6 +47,7 @@
     9. =IMG CHANTILLY
     10. =CONTACT
     11. =FOOTER
+    12. =MENU
 */
 
 
@@ -112,21 +114,25 @@ header{
     background-size: cover;
     background-color:#fff;
     background-attachment: fixed;
+    margin-top:70px;
+    
+    
 }
 
 
 .home-title h1{
     position: absolute;
-    top: 30%;
-    margin-top: 35px;  
+    top:0;
+     
 }
 
 
 .home-title h2{
     position: absolute;
-    top: 30%;
+    
     text-align: center;
-    margin-top: 35px;
+    
+    
 }
 
 
@@ -287,8 +293,7 @@ header{
     bottom: -10px;
     right: -5px;
     border: 5px solid;
-    border-color: transparent transparent 
-        transparent;
+    border-color: transparent transparent transparent;
     transition: opacity 0.1s;
   }
 
@@ -308,17 +313,17 @@ header{
   }
 
 
-    .has-tip:hover:before,
-    .has-tip.active:before {
+.has-tip:hover:before,
+.has-tip.active:before {
     opacity: 1;
-  }
+}
 
 
-  .has-tip:hover:after,
-  .has-tip.active:after {
+.has-tip:hover:after,
+.has-tip.active:after {
     opacity: 1;
     transform: translateX(50%) translateY(100%) translateY(10px);
-  }
+}
 
 
 
@@ -345,10 +350,7 @@ header{
     text-align: center;
     cursor: default;
     background-color: white;
-    margin-bottom: 35px;
-    
-    
-   
+    margin-bottom: 35px; 
 }
 
 
@@ -396,8 +398,6 @@ header{
     overflow: hidden;
     padding: 0.5em 0;
     background-color: transparent;
-    
-    
 }
 
 
@@ -463,16 +463,7 @@ header{
 
 /* CONTACT
 ==========================*/
-
-
-.topBefore{
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-}
     
-
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: #33211c;
@@ -571,13 +562,16 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
     color: #000;
     margin-top: 0px;
     background-color: #f0d3bd;
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
 }
 
 
 #form {
     position: relative;
     width: 500px;
-    margin: 50px auto 100px 225px;
+    margin: 50px auto auto auto;
     background-color: #f0d3bd;
 }
 
@@ -588,23 +582,27 @@ input {
     width: 670px;
     height: 50px;
     padding: 0px 15px 0px 15px;
-  
     background: #f0d3bd;
     outline: none;
     color: #33211c;
-  
     border: solid 1px #33211c;
     border-bottom: none;
-  
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
+   
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+    max-width: 600px;
+    padding: 15px;
+    resize: vertical;
 }
 
 
 input:hover {
-    background: #d3a389;
+    background: #ffe5d8;
     color: #33211c;
 }
 
@@ -620,6 +618,12 @@ textarea {
     font-family: 'Raleway';
     font-size: 15px;;
     border: solid 1px #33211c;
+    box-sizing: border-box;
+    
+    width: 100%;
+    margin-top: 0;
+    max-width: 600px;
+    
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -628,7 +632,7 @@ textarea {
 
 
 textarea:hover {
-    background: #d3a389;
+    background: #ffe5d8;
     color: #33211c;
 }
 
@@ -645,12 +649,15 @@ textarea:hover {
     border: solid 1px #33211c;
     border-top: solid 1px #33211c;
     background-color: #f0d3bd;
+    width: 100%;
+    margin-top: 0;
+    max-width: 600px;
 }
 
 
 #submit:hover {
     color: #33211c;
-    background-color: #d3a389;
+    background-color: #ffe5d8;
 }
 
 
@@ -680,11 +687,197 @@ footer{
 
 
 
+/* MENU
+==========================*/
+
+
+body {
+  
+    font-family:"Raleway";
+    background-color: #fff;
+    top: 0;
+}
+
+
+a {
+    color: #d3a389;
+}
+
+
+/* header */
+
+.nav{
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 #765848;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+
+.nav ul {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+    position:static;
+}
+
+
+.nav li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid transparent;
+    text-decoration: none;
+}
 
 
 
+.nav .menu-btn:hover {
+  background-color: transparent;
+}
 
 
+.nav li a:hover{
+  color: #9d745e;
+}
+
+
+.nav .logo img{
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 110px;
+    position: absolute;
+    top: -10px;
+    left: 60px;
+}
+
+
+/* menu */
+
+
+.nav .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+
+/* menu icon */
+
+
+.nav .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 30px ;
+    position: relative;
+    align-content: flex-start;
+    user-select: none;
+    width: 50px;
+  
+}
+	
+
+.nav .menu-icon .navicon {
+    background: #9d745e;
+    display: block;
+    height: 2px;
+    position: relative;
+    left: auto;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+
+.nav .menu-icon .navicon:before,
+.nav .menu-icon .navicon:after {
+    background: #9d745e;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+
+.nav .menu-icon .navicon:before {
+    top: 5px;
+}
+
+
+.nav .menu-icon .navicon:after {
+    top: -5px;
+}
+
+
+/* menu btn */
+
+
+.nav .menu-btn {
+    display: none;
+    padding-left: 100px;
+}
+
+
+.nav .menu-btn:checked ~ .menu {
+    max-height: 240px;
+}
+
+
+.nav .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+}
+
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+
+.nva .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+.nav li {
+    float: left;
+}
+  
+  
+.nav li a {
+    padding: 20px 30px;
+    color: #d3a389;
+}
+  
+  
+.nav .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+}
+  
+  
+.header .menu-icon {
+    display: none;
+}
+}
 
 
 
