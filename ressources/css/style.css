@@ -667,7 +667,10 @@ footer{
     background-color: #d3a389;
     color: #000;
     height: 60px;
-    padding: 20px 20px
+    padding: 20px 20px 20px 20px;
+    position :relative;
+    
+    
 }
 
 
@@ -859,7 +862,7 @@ a {
   
 .nav li a {
     padding: 20px 30px;
-    color: #d3a389;
+    color: #d3a389;  3. 
 }
   
   
@@ -874,6 +877,207 @@ a {
     display: none;
 }
 }
+
+
+
+
+/* STUDIENT UNION
+==========================*/
+
+.studient-union h3{
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Prata';
+}
+
+
+.studient-union h4{
+  display: block;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  margin-left: 45px;
+  font-size: 25px;
+  font-family: 'Petit Formal Script';
+  text-align: center;
+  position: relative;
+  left: 100px;
+  top: 35px;
+}
+
+
+/*intro*/
+.studient-union p2{
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+/*gala*/
+.studient-union p{
+  display: block;
+  margin-left: 65px;
+  text-align: center;
+  position: relative;
+  left: 100px;
+  top:15px;
+}
+
+
+.studient-union img{
+    position:inherit;
+    top: 35px;
+    margin-bottom: 35px;
+    left: 0;
+    width: 600px;  
+}
+
+
+.icone img{
+  position: relative;
+  left: 265px;
+  margin-top:-150px;
+  width: 50px;
+  margin: none;
+}
+
+
+.wei img{
+  display: block;
+  position:relative;
+  top: 35px;
+  margin-bottom: 65px;
+  left: 300px;
+  width: 600px;
+}
+
+
+
+
+/* CHRISTMAS
+==========================*/
+
+.christmas img{
+  display: block;
+  position: relative;
+  top: 65px;;
+  right: 0;
+  left: 0px;
+  width: 600px;
+  margin-bottom: 265px;
+}
+
+
+.christmas h3{
+  color: #000;
+  text-align: center;
+  align-content: center;
+  font-size: 30px;
+  font-family: 'Prata';
+}
+
+
+.christmas h4{
+  display: block;
+  margin-bottom: 35px;
+  margin-top: 45px;
+  margin-left: 45px;
+  font-size: 25px;
+  font-family: 'Petit Formal Script';
+  text-align: center;
+  position: relative;
+  left: 100px;
+  top: 35px;
+}
+
+
+.christmas p{
+  display: block;
+  margin-bottom: 35px;
+  margin-left: 65px;
+  text-align: center;
+  position: relative;
+  left: 100px;
+  top:15px;
+}
+
+
+.christmas p2{
+  display: block;
+  text-align: center;
+}
+
+
+.icone img{
+  position: relative;
+  left: 265px;
+  top:15px;
+  width: 50px;
+  margin: none;
+}
+
+
+
+/* BIRTHDAY
+==========================*/
+
+
+.birthday video{
+    position:relative;
+    top: 150px;
+    margin-bottom: 400px;
+    left: 0;
+    width: 600px;  
+}
+
+
+.birthday p{
+  display: block;
+  margin-bottom: 35px;
+  margin-left: 65px;
+  text-align: center;
+  position: relative;
+  left: 100px;
+  top: 125px;
+}
+
+
+.birthday h4{
+  display: block;
+  margin-bottom: 35px;
+  margin-top: 45px;
+  margin-left: 45px;
+  font-size: 25px;
+  font-family: 'Petit Formal Script';
+  text-align: center;
+  position: relative;
+  left: 100px;
+  top: 150px;
+}
+
+
+.birthday h3{
+  color: #000;
+  text-align: center;
+  align-content: center;
+  font-size: 30px;
+  font-family: 'Prata';
+  position: relative;
+  top: 35px;
+}
+
+
+.icone img{
+  position: relative;
+  left: 265px;
+  top:125px;
+  width: 50px;
+  margin: none;
+}
+
+
+
 
 
 
