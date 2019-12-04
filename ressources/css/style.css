@@ -16,7 +16,8 @@
     - Hover contact #ffe5d8
     - Hover Menu #9d745e
 
-    - Icones #000
+    - Icones compétences #000
+    - Icones contact #33211c
 
     - Border #33211c
 */
@@ -29,7 +30,9 @@
     - H2    Prata
     - H3    Petit Formal Script
     - H4    Cormorant Garamond
-    - P     Ralway
+    - P     Raleway
+    - P1    Raleway
+    - P2    Raleway
 */
 
 
@@ -48,6 +51,14 @@
     10. =CONTACT
     11. =FOOTER
     12. =MENU
+
+PAGES:
+    1. =STUDIENT UNION
+    2. =CHRISTMAS
+    3. =BIRTHDAY
+    4. =HALLOWEEN
+    5. =NEW TRAVEL
+    6. =STORY INSTAGRAM
 */
 
 
@@ -457,7 +468,48 @@ header{
 
 /* CONTACT
 ==========================*/
-    
+
+
+.coordonnees h3{
+    display: block;
+    font-size: 27px;
+    position: relative;
+    margin-bottom: 35px;
+    margin-left: 0;
+}
+
+
+.mail p{
+    display: block;
+    font-size: 15px;
+    font-family: 'Raleway';
+    position: relative;
+    text-align: left;
+}
+
+.numero p{
+    display: block;
+    font-size: 15px;
+    font-family: 'Raleway';
+    position: relative;
+    text-align: left;
+}
+
+.adresse p{
+    display: block;
+    font-size: 15px;
+    font-family: 'Raleway';
+    position: relative;
+    text-align: left;
+}
+
+.picto{
+    display: block;
+    font-size: 30px;
+    margin-top: -10px;
+    color: #33211c;
+}
+
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: #33211c;
@@ -643,6 +695,7 @@ textarea:hover {
     background-color: #f0d3bd;
     width: 100%;
     margin-top: 0;
+    margin-bottom: 65px;
     max-width: 600px;
 }
 
@@ -698,7 +751,6 @@ a {
 
 
 /* header */
-
 .nav{
     background-color: #fff;
     box-shadow: 1px 1px 4px 0 #765848;
@@ -865,6 +917,10 @@ a {
 }
 
 
+                                /*============================
+                                            PAGES
+                                ============================*/
+
 
 
 /* STUDIENT UNION
@@ -898,6 +954,7 @@ a {
     text-align: center;
     margin-top: 35px;
     margin-bottom: 35px;
+    font-family: 'Raleway';
 }
 
 
@@ -914,6 +971,7 @@ a {
     text-align: center;
     position: relative;
     top:15px; 
+    font-family: 'Raleway';
 }
 
 
@@ -953,6 +1011,7 @@ a {
     position: relative;
     left: 100px;
     top:15px;
+    font-family: 'Raleway';
 }
 
 
@@ -998,6 +1057,7 @@ a {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 35px;
+    font-family: 'Raleway';
 }
 
 
@@ -1014,6 +1074,7 @@ a {
     text-align: center;
     position: relative;
     top:15px; 
+    font-family: 'Raleway';
 }
 
 
@@ -1077,6 +1138,7 @@ a {
     text-align: center;
     position: relative;
     top:15px; 
+    font-family: 'Raleway';
 }
 
 
@@ -1139,6 +1201,7 @@ a {
     text-align: center;
     position: relative;
     top:15px; 
+    font-family: 'Raleway';
 }
 
 
@@ -1180,6 +1243,7 @@ a {
     position: relative;
     left: 100px;
     top:15px;
+    font-family: 'Raleway';
 }
 
 
@@ -1225,6 +1289,7 @@ a {
     text-align: center;
     margin-top: 35px;
     margin-bottom: 35px;
+    font-family: 'Raleway';
 }
 
 
@@ -1302,11 +1367,11 @@ a {
     text-align: center;
     margin-top: 35px;
     margin-bottom: 35px;
+    font-family: 'Raleway';
 }
 
 
 /*projet final*/
-
 .ig img{
     display: block;
     width: 600px;
@@ -1315,7 +1380,6 @@ a {
     margin-top: 55px;
     margin-bottom: 55px;
 }
-
 
 
 /*photo origine*/
@@ -1327,6 +1391,7 @@ a {
     
 }
 
+
 .photo-origine img{
     display: block;
     width: 300px;
@@ -1336,6 +1401,7 @@ a {
     margin-top: 70px;
     
 }
+
 
 .icon-1 img{
     display: block;
@@ -1365,6 +1431,7 @@ a {
     margin-top: 70px;
 }
 
+
 .icon-2 img{
     display: block;
     position: relative;
@@ -1384,6 +1451,7 @@ a {
     margin-bottom: 35px;
 }
 
+
 .photo-montage img{
     display: block;
     width: 300px;
@@ -1392,6 +1460,7 @@ a {
     margin-right: 50px; 
     margin-top: 125px;
 }
+
 
 .icon-3 img{
     display: block;
@@ -1421,6 +1490,8 @@ a {
     margin-right: 50px; 
     margin-top: 70px;
 }
+
+
 .icon-4 img{
     display: block;
     position: relative;
