@@ -896,7 +896,8 @@ a {
 .bde p2{
     display: block;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 
@@ -939,7 +940,7 @@ a {
     display: block;
     position:relative;
     top: 35px;
-    margin-bottom: 65px;
+    margin-bottom: 95px;
     margin-left: 150px;
     width: 600px;
 }
@@ -955,7 +956,8 @@ a {
 }
 
 
-.icon img{
+.icon-pub img{
+    display: block;
    position: relative;
     margin-left: 290px;
     margin-top:0;
@@ -995,6 +997,7 @@ a {
     display: block;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 35px;
 }
 
 
@@ -1018,7 +1021,7 @@ a {
     display: block;
     position:relative;
     top: 35px;
-    margin-bottom: 65px;
+    margin-bottom: 95px;
     margin-right: 40px;
     width: 600px; 
 }
@@ -1043,6 +1046,7 @@ a {
     text-align: center;
     font-size: 30px;
     font-family: 'Prata';
+    margin-bottom: 35px;
 }
 
 
@@ -1080,7 +1084,7 @@ a {
     display: block;
     position:relative;
     top: 35px;
-    margin-bottom: 65px;
+    margin-bottom: 95px;
     margin-right: 40px;
     width: 600px; 
 }
@@ -1104,6 +1108,7 @@ a {
     text-align: center;
     font-size: 30px;
     font-family: 'Prata';
+    margin-bottom: 35px;
 }
 
 
@@ -1147,10 +1152,12 @@ a {
 }
 
 
-.icon-illu img{
+.un-icon img{
+    display: block;
     position: relative;
-    margin-left: 190px;
+    margin-left: 180px;
     margin-top:0;
+    margin-bottom: 35px;
     width: 50px;
 }
 
@@ -1160,7 +1167,7 @@ a {
     display: block;
     position:relative;
     top: 35px;
-    margin-bottom: 65px;
+    margin-bottom: 95px;
     margin-left: 150px;
     width: 600px;
 }
@@ -1176,9 +1183,10 @@ a {
 }
 
 
-.icon img{
+.deux-icon img{
+    display: block;
    position: relative;
-    margin-left: 290px;
+    margin-left: 280px;
     margin-top:0;
     width: 50px;
 }
@@ -1215,7 +1223,8 @@ a {
 .travel p2{
     display: block;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 
@@ -1254,7 +1263,7 @@ a {
    position: relative;
     margin-left: 290px;
     margin-top:90px;
-    margin-bottom: 35px;
+    margin-bottom: 65px;
     width: 50px;
 }
 
@@ -1291,7 +1300,8 @@ a {
 .ig p2{
     display: block;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 
@@ -1416,7 +1426,7 @@ a {
     position: relative;
     margin-left: 160px;
     margin-top:55px;
-    margin-bottom: 55px;
+    margin-bottom: 65px;
     width: 50px;
 }
 
