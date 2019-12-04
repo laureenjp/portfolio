@@ -934,20 +934,6 @@ a {
 }
 
 
-.bde h4{
-    display: block;
-    margin-bottom: 35px;
-    margin-top: 35px;
-    margin-left: 45px;
-    font-size: 25px;
-    font-family: 'Petit Formal Script';
-    text-align: center;
-    position: relative;
-    left: 100px;
-    top: 35px;
-}
-
-
 /*intro*/
 .bde p2{
     display: block;
@@ -961,7 +947,15 @@ a {
 /*wei*/
 .title-wei h4{
     display: block;
-    text-align: start;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: -135px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: 35px;
 }
 
 
@@ -994,6 +988,19 @@ a {
 
 
 /*gala*/
+.title-gala h4{
+    display: block;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: -50px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 155px;
+    top: 35px;
+}
+
 .gala img{
     display: block;
     position:relative;
