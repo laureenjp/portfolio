@@ -915,7 +915,52 @@ a {
 }
 
 
-/*party*/
+/*gala*/
+.title-gala h4{
+    display: block;
+    text-align: start;
+  
+}
+
+.bde p1{
+    display: block;
+  margin-left: 65px;
+  text-align: center;
+  position: relative;
+  top:15px; 
+}
+
+
+.bde img{
+    display: block;
+  position:relative;
+  top: 35px;
+  margin-bottom: 65px;
+    margin-right: 40px;
+  
+  width: 600px; 
+}
+
+.icon-psd img{
+  position: relative;
+  margin-left: 190px;
+  margin-top:0;
+  width: 50px;
+  
+}
+
+
+
+/*wei*/
+.wei img{
+  display: block;
+  position:relative;
+  top: 35px;
+  margin-bottom: 65px;
+  margin-left: 150px;
+  width: 600px;
+}
+
 .bde p{
   display: block;
   margin-left: 65px;
@@ -925,36 +970,13 @@ a {
   top:15px;
 }
 
-
-.bde img{
-    position:inherit;
-    top: 35px;
-    margin-bottom: 35px;
-    left: 0;
-    width: 600px;  
-}
-
-
 .icon img{
   position: relative;
-  left: 265px;
+  margin-left: 290px;
   margin-top:0;
   width: 50px;
-  margin: none;
+  
 }
-
-
-.wei img{
-  display: block;
-  position:relative;
-  top: 35px;
-  margin-bottom: 65px;
-  left: 300px;
-  width: 600px;
-}
-
-
-
 
 
 
