@@ -263,8 +263,7 @@ header{
     border-radius: 0.5em;
     position: relative;
     background: #f2f2f2;
-    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1); 
-    
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);  
 }
 
 
@@ -380,8 +379,7 @@ header{
     opacity: 0.4;
     filter: alpha(opacity=40);
     -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-    
+    transform: translate3d(0,0,0);  
 }
 
 
@@ -506,8 +504,6 @@ input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
 
 
 /* on hover placeholder */
-
-
 input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
     color: #33211c;
     font-size: 15px;
@@ -668,9 +664,7 @@ footer{
     color: #000;
     height: 60px;
     padding: 20px 20px 20px 20px;
-    position :relative;
-    
-    
+    position :relative;  
 }
 
 
@@ -759,8 +753,6 @@ a {
 
 
 /* menu */
-
-
 .nav .menu {
     clear: both;
     max-height: 0;
@@ -769,8 +761,6 @@ a {
 
 
 /* menu icon */
-
-
 .nav .menu-icon {
     cursor: pointer;
     display: inline-block;
@@ -780,7 +770,6 @@ a {
     align-content: flex-start;
     user-select: none;
     width: 50px;
-  
 }
 	
 
@@ -818,8 +807,6 @@ a {
 
 
 /* menu btn */
-
-
 .nav .menu-btn {
     display: none;
     padding-left: 100px;
@@ -853,7 +840,6 @@ a {
 
 
 /* 48em = 768px */
-
 @media (min-width: 48em) {
 .nav li {
     float: left;
@@ -1240,8 +1226,7 @@ a {
     top: 35px;
     bottom: 35px;
     left: 40px;
-    width: 600px;
-   
+    width: 600px; 
 }
 
 
@@ -1272,3 +1257,171 @@ a {
     margin-bottom: 35px;
     width: 50px;
 }
+
+
+
+
+/* STORY INSTAGRAM
+==========================*/
+
+
+.ig h3{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Prata';
+}
+
+
+.ig h4{
+    display: block;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: 45px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 50px;
+    top: 35px;
+}
+
+
+/*intro*/
+.ig p2{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*projet final*/
+
+.ig img{
+    display: block;
+    width: 600px;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+
+
+/*photo origine*/
+.title-photo-origine h4{
+    display: block;
+    position: relative;
+    margin-left: -165px;
+    margin-top: 0; 
+    
+}
+
+.photo-origine img{
+    display: block;
+    width: 300px;
+    position: relative;
+    margin-left: -60px; 
+    margin-right: 50px; 
+    margin-top: 70px;
+    
+}
+
+.icon-1 img{
+    display: block;
+    position: relative;
+    margin-left: 65px;
+    margin-top:100px;
+    margin-bottom: 35px;
+    width: 50px;
+}
+
+
+/*photo retouchée*/
+.title-photo-retouche h4{
+    display: block;
+    position: relative;
+    margin-left: -105px;
+    margin-top: 0;
+}
+
+
+.photo-retouche img{
+    display: block;
+    width: 300px;
+    position: relative;
+    margin-left: -30px; 
+    margin-right: 50px; 
+    margin-top: 70px;
+}
+
+.icon-2 img{
+    display: block;
+    position: relative;
+    margin-left: 100px;
+    margin-top:100px;
+    margin-bottom: 35px;
+    width: 50px;
+}
+
+
+/*photo montage*/
+.title-photo-montage h4{
+    display: block;
+    position: relative;
+    margin-left: -65px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.photo-montage img{
+    display: block;
+    width: 300px;
+    position: relative;
+    margin-left: 0px; 
+    margin-right: 50px; 
+    margin-top: 125px;
+}
+
+.icon-3 img{
+    display: block;
+    position: relative;
+    margin-left: 135px;
+    margin-top:145px;
+    margin-bottom: 35px;
+    width: 50px;
+}
+
+
+/*story*/
+.title-photo-story h4{
+    display: block;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+
+.photo-story img{
+     display: block;
+    width: 250px;
+    position: relative;
+    margin-left: 60px; 
+    margin-right: 50px; 
+    margin-top: 70px;
+}
+.icon-4 img{
+    display: block;
+    position: relative;
+    margin-left: 160px;
+    margin-top:55px;
+    margin-bottom: 55px;
+    width: 50px;
+}
+
+
+
+
+
+
