@@ -958,8 +958,8 @@ a {
 }
 
 
-/*gala*/
-.title-gala h4{
+/*wei*/
+.title-wei h4{
     display: block;
     text-align: start;
 }
@@ -985,7 +985,7 @@ a {
 }
 
 
-.icon-psd img{
+.icon-pub img{
     position: relative;
     margin-left: 190px;
     margin-top:0;
@@ -993,8 +993,8 @@ a {
 }
 
 
-/*wei*/
-.wei img{
+/*gala*/
+.gala img{
     display: block;
     position:relative;
     top: 35px;
@@ -1015,7 +1015,7 @@ a {
 }
 
 
-.icon-pub img{
+.icon-psd img{
     display: block;
    position: relative;
     margin-left: 290px;
