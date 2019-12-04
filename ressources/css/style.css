@@ -884,7 +884,7 @@ a {
 /* STUDIENT UNION
 ==========================*/
 
-.studient-union h3{
+.bde h3{
   color: #000;
   text-align: center;
   font-size: 30px;
@@ -892,7 +892,7 @@ a {
 }
 
 
-.studient-union h4{
+.bde h4{
   display: block;
   margin-bottom: 35px;
   margin-top: 35px;
@@ -907,15 +907,16 @@ a {
 
 
 /*intro*/
-.studient-union p2{
+
+.bde p2{
   display: block;
   text-align: center;
   margin-top: 20px;
 }
 
 
-/*gala*/
-.studient-union p{
+/*party*/
+.bde p{
   display: block;
   margin-left: 65px;
   text-align: center;
@@ -925,7 +926,7 @@ a {
 }
 
 
-.studient-union img{
+.bde img{
     position:inherit;
     top: 35px;
     margin-bottom: 35px;
@@ -934,10 +935,10 @@ a {
 }
 
 
-.icone img{
+.icon img{
   position: relative;
   left: 265px;
-  margin-top:-150px;
+  margin-top:0;
   width: 50px;
   margin: none;
 }
@@ -951,6 +952,8 @@ a {
   left: 300px;
   width: 600px;
 }
+
+
 
 
 
@@ -987,7 +990,7 @@ a {
   font-family: 'Petit Formal Script';
   text-align: center;
   position: relative;
-  left: 100px;
+  left: 150px;
   top: 35px;
 }
 
@@ -998,7 +1001,7 @@ a {
   margin-left: 65px;
   text-align: center;
   position: relative;
-  left: 100px;
+  left: 150px;
   top:15px;
 }
 
@@ -1010,9 +1013,11 @@ a {
 
 
 .icone img{
+
+    display: block;
   position: relative;
   left: 265px;
-  margin-top:-100px;
+  top: 200px;
   width: 50px;
   margin: none;
 }
