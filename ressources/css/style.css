@@ -944,6 +944,16 @@ a {
 }
 
 
+.bde p3{
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    margin-left: 55px;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
 /*wei*/
 .title-wei h4{
     display: block;
@@ -1059,12 +1069,14 @@ a {
 
 
 /*intro*/
-.christmas p2{
+.christmas p3{
     display: block;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 35px;
+    margin-left: 55px;
     font-family: 'Raleway';
+    font-size: 15px;
 }
 
 
@@ -1114,7 +1126,19 @@ a {
     text-align: center;
     font-size: 30px;
     font-family: 'Prata';
+    margin-bottom: 0px;
+}
+
+
+/*intro*/
+.birthday p3{
+    display: block;
+    text-align: center;
+    
     margin-bottom: 35px;
+    margin-left: 55px;
+    font-family: 'Raleway';
+    font-size: 15px;
 }
 
 
@@ -1177,7 +1201,18 @@ a {
     text-align: center;
     font-size: 30px;
     font-family: 'Prata';
+    margin-bottom: 0px;
+}
+
+/*intro*/
+.halloween p3{
+    display: block;
+    text-align: center;
+    margin-top: 0;
     margin-bottom: 35px;
+    margin-left: 55px;
+    font-family: 'Raleway';
+    font-size: 15px;
 }
 
 
@@ -1291,6 +1326,16 @@ a {
 
 
 /*intro*/
+.travel p3{
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    margin-left: 55px;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
 .travel p2{
     display: block;
     text-align: center;
@@ -1369,6 +1414,17 @@ a {
 
 
 /*intro*/
+.ig p3{
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    margin-left: 55px;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+
 .ig p2{
     display: block;
     text-align: center;
