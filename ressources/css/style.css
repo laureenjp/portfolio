@@ -43,11 +43,11 @@
     2. =HEADER
     3. =PRESENTATION
     4. =COMPETENCES
-    5. =IMG TUILERIE
+    5. =IMG TUILERIE STATUE
     6. =LOGICIELS
     7. =SEPARATION
     8. =REALISATIONS
-    9. =IMG CHANTILLY
+    9. =IMG TUILERIE SUNSET
     10. =CONTACT
     11. =FOOTER
     12. =MENU
@@ -207,13 +207,13 @@ header{
 
 
 
-/* IMAGE TUILERIE
+/* IMAGE TUILERIE STATUE
 ==========================*/
 
 
 .image-tuilerie{
     height: 75vh;
-    background-image: url(../images/paris/sunset-tuilerie-2.JPG);
+    background-image: url(../images/paris/louvre-tuilerie-2.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -451,13 +451,13 @@ header{
 
 
 
-/* IMAGE CHANTILLY
+/* IMAGE TUILERIE SUNSET
 ==========================*/
 
 
 .louvre-tuilerie{
     height: 80vh;
-    background-image: url(../images/chateau-chantilly.jpg);
+    background-image: url(../images/paris/sunset-tuilerie-2.JPG);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
