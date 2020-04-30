@@ -14,12 +14,15 @@
 
     - Background #f0d3bd
     - Hover contact #ffe5d8
-    - Hover Menu #9d745e
+    - Hover Menu #D8C5BF
 
     - Icones compétences #000
-    - Icones contact #33211c
+    - Icones contact #000
 
     - Border #33211c
+
+    - Background présentation #D8C5BF
+    - Background contact #D8C5BF
 */
 
 
@@ -150,7 +153,7 @@ header{
 
 
 .presentation{
-    background-color:#f0d3bd ;  
+    background-color:#D8C5BF ;  
 }
 
 
@@ -159,7 +162,7 @@ header{
     height: auto;
     margin-top: 0;
     position: relative;
-    top: -70px;
+    top: -40px;
 }
 
 
@@ -281,7 +284,7 @@ header{
 .bar .percentage {
     position: relative;
     font-size: 1em;
-    background: #d3a389;
+    background: #D8C5BF;
     height: 1em;
     border-radius: 0.5em;
 }
@@ -338,7 +341,7 @@ header{
 ==========================*/
 
 .separation{
-	background: #d3a389;
+	background: #D8C5BF;
 	}
 
 
@@ -412,7 +415,7 @@ header{
     left: 0;
     width: 100%;
     height: 4px;
-    background: #d3a389;
+    background: #D8C5BF;
     content: '';
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.5s;
@@ -468,6 +471,23 @@ header{
 
 /* CONTACT
 ==========================*/
+.cv {
+    background-color: #D8C5BF;
+}
+
+.cv img{
+    margin-left: 150px;
+    margin-bottom: 55px;
+    margin-top: 35px;
+}
+
+
+/* CONTACT
+==========================*/
+
+.contact{
+    background-color: white;
+}
 
 
 .coordonnees h3{
@@ -505,9 +525,9 @@ header{
 
 .picto{
     display: block;
-    font-size: 30px;
-    margin-top: -10px;
-    color: #33211c;
+    font-size: 20px;
+    margin-top: 0px;
+    color: #000;
 }
 
 
@@ -602,10 +622,10 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 
 .contact {
     font-family: 'Raleway';
-    background: #f0d3bd;
+    background: white;
     color: #000;
     margin-top: 0px;
-    background-color: #f0d3bd;
+    background-color: #D8C5BF;
     width: 100%;
     margin-top: 0;
     text-align: center;
@@ -616,7 +636,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
     position: relative;
     width: 500px;
     margin: 50px auto auto auto;
-    background-color: #f0d3bd;
+    background-color: #D8C5BF;
 }
 
 
@@ -626,7 +646,7 @@ input {
     width: 670px;
     height: 50px;
     padding: 0px 15px 0px 15px;
-    background: #f0d3bd;
+    background: #D8C5BF;
     outline: none;
     color: #33211c;
     border: solid 1px #33211c;
@@ -692,7 +712,7 @@ textarea:hover {
     cursor: pointer;
     border: solid 1px #33211c;
     border-top: solid 1px #33211c;
-    background-color: #f0d3bd;
+    background-color: #D8C5BF;
     width: 100%;
     margin-top: 0;
     margin-bottom: 65px;
@@ -713,7 +733,7 @@ textarea:hover {
 
 
 footer{
-    background-color: #d3a389;
+    background-color: #D8C5BF;
     color: #000;
     height: 60px;
     padding: 20px 20px 20px 20px;
@@ -746,14 +766,14 @@ body {
 
 
 a {
-    color: #d3a389;
+    color: #D8C5BF;
 }
 
 
 /* header */
 .nav{
     background-color: #fff;
-    box-shadow: 1px 1px 4px 0 #765848;
+    box-shadow: 1px 1px 4px 0 #D8C5BF;
     position: fixed;
     top: 0;
     width: 100%;
@@ -797,10 +817,10 @@ a {
     font-size: 2em;
     padding: 10px 20px;
     text-decoration: none;
-    width: 110px;
+    width: 245px;
     position: absolute;
-    top: -10px;
-    left: 60px;
+    top: -50px;
+    left: 0px;
 }
 
 
@@ -826,7 +846,7 @@ a {
 	
 
 .nav .menu-icon .navicon {
-    background: #9d745e;
+    background: #D8C5BF;
     display: block;
     height: 2px;
     position: relative;
@@ -838,7 +858,7 @@ a {
 
 .nav .menu-icon .navicon:before,
 .nav .menu-icon .navicon:after {
-    background: #9d745e;
+    background: #D8C5BF;
     content: '';
     display: block;
     height: 100%;
@@ -900,7 +920,7 @@ a {
   
 .nav li a {
     padding: 20px 30px;
-    color: #d3a389;  3. 
+    color: #D8C5BF;  3. 
 }
   
   
@@ -957,24 +977,24 @@ a {
 /*wei*/
 .title-wei h4{
     display: block;
-    margin-bottom: 35px;
-    margin-top: 35px;
+    margin-bottom: 5px;
+    margin-top: 55px;
     margin-left: -135px;
     font-size: 25px;
     font-family: 'Petit Formal Script';
     text-align: center;
     position: relative;
-    left: 100px;
+    left: 65px;
     top: 35px;
 }
 
 
 .bde p1{
     display: block;
-    margin-left: 65px;
+    margin-left: 0px;
     text-align: center;
     position: relative;
-    top:15px; 
+    top:55px; 
     font-family: 'Raleway';
 }
 
@@ -984,15 +1004,16 @@ a {
     position:relative;
     top: 35px;
     margin-bottom: 65px;
-    margin-right: 40px;
-    width: 600px; 
+    margin-right: 0px;
+    margin-left: 130px;
+    width: 300px; 
 }
 
 
 .icon-pub img{
     position: relative;
-    margin-left: 190px;
-    margin-top:0;
+    margin-left: 140px;
+    margin-top:50px;
     width: 50px;
 }
 
@@ -1000,8 +1021,8 @@ a {
 /*gala*/
 .title-gala h4{
     display: block;
-    margin-bottom: 35px;
-    margin-top: 35px;
+    margin-bottom: 15px;
+    margin-top: 55px;
     margin-left: -50px;
     font-size: 25px;
     font-family: 'Petit Formal Script';
@@ -1016,8 +1037,8 @@ a {
     position:relative;
     top: 35px;
     margin-bottom: 95px;
-    margin-left: 150px;
-    width: 600px;
+    margin-left: 250px;
+    width: 300px;
 }
 
 
@@ -1027,7 +1048,7 @@ a {
     text-align: center;
     position: relative;
     left: 100px;
-    top:15px;
+    top:40px;
     font-family: 'Raleway';
 }
 
@@ -1035,8 +1056,8 @@ a {
 .icon-psd img{
     display: block;
    position: relative;
-    margin-left: 290px;
-    margin-top:0;
+    margin-left: 275px;
+    margin-top:50px;
     width: 50px;
 }
 
@@ -1083,16 +1104,17 @@ a {
 .title-christmas h4{
     display: block;
     text-align: start;
-    margin-left: 0;
+    margin-left: -50px;
+    margin-bottom: 0px;
 }
 
 
 .christmas p1{
     display: block;
-    margin-left: 65px;
+    margin-left: 5px;
     text-align: center;
     position: relative;
-    top:15px; 
+    top:80px; 
     font-family: 'Raleway';
 }
 
@@ -1103,15 +1125,18 @@ a {
     top: 35px;
     margin-bottom: 95px;
     margin-right: 40px;
-    width: 600px; 
+    margin-left: 135px;
+    width: 300px; 
 }
 
 
 .icon img{
     position: relative;
-    margin-left: 190px;
-    margin-top:0;
+    margin-left: 90px;
+    margin-top:35px;
     width: 50px;
+    top: 135px;
+    left: -50px;
 }
 
 
@@ -1234,15 +1259,16 @@ a {
 .title-halloween h4{
     display: block;
     text-align: start;
-    margin-left: 0;
+    margin-left: -150px;
+    margin-top: 70px;
 }
 
 .halloween p1{
     display: block;
-    margin-left: 65px;
+    margin-left: -155px;
     text-align: center;
     position: relative;
-    top:15px; 
+    top:35px; 
     font-family: 'Raleway';
 }
 
@@ -1251,17 +1277,18 @@ a {
     display: block;
     position:relative;
     top: 35px;
+    left: 95px;
     margin-bottom: 65px;
     margin-right: 40px;
-    width: 600px; 
+    width: 300px; 
 }
 
 
 .un-icon img{
     display: block;
     position: relative;
-    margin-left: 180px;
-    margin-top:0;
+    margin-left: -35px;
+    margin-top:75px;
     margin-bottom: 35px;
     width: 50px;
 }
@@ -1273,27 +1300,35 @@ a {
     position:relative;
     top: 35px;
     margin-bottom: 95px;
-    margin-left: 150px;
-    width: 600px;
+    margin-left: 0px;
+    width: 500px;
 }
 
+.title-gif h4{
+    display: block;
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
 
 .halloween p{
     display: block;
     margin-left: 65px;
     text-align: center;
     position: relative;
-    left: 100px;
-    top:15px;
+    left: 25px;
+    top:35px;
     font-family: 'Raleway';
+    font-size: 16px;
 }
 
 
 .deux-icon img{
     display: block;
    position: relative;
-    margin-left: 280px;
-    margin-top:0;
+    margin-left: 100px;
+    margin-top:35px;
     width: 50px;
 }
 
@@ -1320,7 +1355,7 @@ a {
     font-family: 'Petit Formal Script';
     text-align: center;
     position: relative;
-    left: 50px;
+    left: 30px;
     top: 35px;
 }
 
@@ -1346,32 +1381,61 @@ a {
 
 
 /*final*/
+.title-final h4{
+    display: block;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: -55px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 30px;
+    top: 35px;
+}
+
+
 .final img{
      display: block;
     position: relative;
-    top: 35px;
+    top: 75px;
     bottom: 35px;
     left: 40px;
-    width: 600px; 
+    width: 450px; 
 }
 
 
 .icon-il img{
    position: relative;
-    margin-left: 290px;
-    margin-top:100px;
+    margin-left: 245px;
+    margin-top:150px;
     margin-bottom: 35px;
     width: 50px;
 }
 
 
 /*couv*/
+.title-couv{
+    display: block;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: -65px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 30px;
+    
+    
+}
+
+
 .couverture img{
      display: block;
     position: relative;
     top: 35px;
     bottom: 35px;
-    left: 200px;;
+    left: 150px;;
     width: 325px;
 }
 
@@ -1439,7 +1503,7 @@ a {
     display: block;
     width: 600px;
     justify-content: center;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-top: 55px;
     margin-bottom: 55px;
 }
@@ -1509,7 +1573,7 @@ a {
 .title-photo-montage h4{
     display: block;
     position: relative;
-    margin-left: -65px;
+    margin-left: -150x;
     margin-top: 0px;
     margin-bottom: 35px;
 }
