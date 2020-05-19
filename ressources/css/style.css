@@ -490,12 +490,14 @@ header{
 }
 
 
-.coordonnees h3{
+.contact h3{
     display: block;
     font-size: 27px;
     position: relative;
     margin-bottom: 35px;
     margin-left: 0;
+    margin-top: 35px;
+   
 }
 
 
@@ -528,95 +530,7 @@ header{
     font-size: 20px;
     margin-top: 0px;
     color: #000;
-}
-
-
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-    color: #33211c;
-    font-size: 15px;
-}
-
-
-input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
-    color: #33211c;
-}
-
-
-input::-moz-placeholder, textarea::-moz-placeholder {
-    color: #33211c;
-    font-size: 15px;
-}
-
-
-input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
-    color: #33211c;
-}
-    
-
-input::placeholder, textarea::placeholder {
-    color: #33211c;
-    font-size: 15px;
-}
-
-
-input:focus::placeholder, textarea::focus:placeholder {
-    color: #33211c;
-}
-
-
-input::-ms-placeholder, textarea::-ms-placeholder {
-    color: #33211c;
-    font-size: 15px;
-}
-
-
-input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
-    color: #33211c;
-}
-
-
-/* on hover placeholder */
-input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
-    color: #33211c;
-    font-size: 15px;
-}
-
-
-input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
-    color: #33211c;
-}
-
-
-input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-    color: #33211c;
-    font-size: 15px;
-}
-
-
-input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
-    color: #33211c;
-}
-
-
-input:hover::placeholder, textarea:hover::placeholder {
-    color: #33211c;
-    font-size: 15px;
-}
-
-
-input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-    color: #33211c;
-}
-
-
-input:hover::placeholder, textarea:hover::placeholder {
-    color: #33211c;
-    font-size: 15px;
-}
-
-
-input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
-    color: #33211c;
+    margin-left: -30px;
 }
 
 
@@ -630,101 +544,6 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
     margin-top: 0;
     text-align: center;
 }
-
-
-#form {
-    position: relative;
-    width: 500px;
-    margin: 50px auto auto auto;
-    background-color: #D8C5BF;
-}
-
-
-input {
-    font-family: 'Raleway';
-    font-size: 15px;
-    width: 670px;
-    height: 50px;
-    padding: 0px 15px 0px 15px;
-    background: #D8C5BF;
-    outline: none;
-    color: #33211c;
-    border: solid 1px #33211c;
-    border-bottom: none;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-   
-    display: inline-block;
-    width: 100%;
-    margin-top: 0;
-    max-width: 600px;
-    padding: 15px;
-    resize: vertical;
-}
-
-
-input:hover {
-    background: #ffe5d8;
-    color: #33211c;
-}
-
-
-textarea {
-    margin: auto;
-    width: 670px;
-    height: 210px;
-    padding: 15px;
-    background: transparent;
-    outline: none;
-    color: #33211c;
-    font-family: 'Raleway';
-    font-size: 15px;;
-    border: solid 1px #33211c;
-    box-sizing: border-box;
-    
-    width: 100%;
-    margin-top: 0;
-    max-width: 600px;
-    
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-}
-
-
-textarea:hover {
-    background: #ffe5d8;
-    color: #33211c;
-}
-
-
-#submit {
-    width: 670px;
-    padding: 0;
-    margin: 0px 0px 35px 0px;
-    font-family: 'Raleway';
-    font-size: 15px;
-    color: #33211c;
-    outline:none;
-    cursor: pointer;
-    border: solid 1px #33211c;
-    border-top: solid 1px #33211c;
-    background-color: #D8C5BF;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 65px;
-    max-width: 600px;
-}
-
-
-#submit:hover {
-    color: #33211c;
-    background-color: #ffe5d8;
-}
-
 
 
 
@@ -1138,83 +957,6 @@ a {
     top: 135px;
     left: -50px;
 }
-
-
-
-
-/* BIRTHDAY
-==========================*/
-
-
-.birthday h3{
-    color: #000;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Prata';
-    margin-bottom: 0px;
-}
-
-
-/*intro*/
-.birthday p3{
-    display: block;
-    text-align: center;
-    
-    margin-bottom: 35px;
-    margin-left: 55px;
-    font-family: 'Raleway';
-    font-size: 15px;
-}
-
-
-.birthday h4{
-    display: block;
-    margin-bottom: 35px;
-    margin-top: 35px;
-    margin-left: 45px;
-    font-size: 25px;
-    font-family: 'Petit Formal Script';
-    text-align: center;
-    position: relative;
-    left: 100px;
-    top: 35px;
-}
-
-
-.title-birthday h4{
-    display: block;
-    text-align: start;
-    margin-left: 0;
-}
-
-
-.birthday p1{
-    display: block;
-    margin-left: 65px;
-    text-align: center;
-    position: relative;
-    top:15px; 
-    font-family: 'Raleway';
-}
-
-
-.birthday img{
-    display: block;
-    position:relative;
-    top: 35px;
-    margin-bottom: 95px;
-    margin-right: 40px;
-    width: 600px; 
-}
-
-
-.icon img{
-    position: relative;
-    margin-left: 190px;
-    margin-top:0;
-    width: 50px;
-}
-
 
 
 
