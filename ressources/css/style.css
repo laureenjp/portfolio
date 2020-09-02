@@ -472,11 +472,11 @@ header{
 /* CONTACT
 ==========================*/
 .cv {
-    background-color: #D8C5BF;
+    background-color:#ffff;
 }
 
 .cv img{
-    margin-left: 150px;
+    margin-left: 250px;
     margin-bottom: 55px;
     margin-top: 35px;
 }
