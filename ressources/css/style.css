@@ -762,10 +762,10 @@ a {
 
 
 
-/* STUDIENT UNION
+/* illustrations
 ==========================*/
 
-.bde h3{
+.illu h3{
     color: #000;
     text-align: center;
     font-size: 30px;
@@ -774,7 +774,7 @@ a {
 
 
 /*intro*/
-.bde p2{
+.illu p2{
     display: block;
     text-align: center;
     margin-top: 35px;
@@ -783,7 +783,7 @@ a {
 }
 
 
-.bde p3{
+.illu p3{
     display: block;
     text-align: center;
     margin-top: 0;
@@ -793,8 +793,8 @@ a {
     font-size: 15px;
 }
 
-/*wei*/
-.title-wei h4{
+/*moi*/
+.my-self h4{
     display: block;
     margin-bottom: 5px;
     margin-top: 55px;
@@ -808,7 +808,7 @@ a {
 }
 
 
-.bde p1{
+.illu p1{
     display: block;
     margin-left: 0px;
     text-align: center;
@@ -818,7 +818,7 @@ a {
 }
 
 
-.bde img{
+.illu img{
     display: block;
     position:relative;
     top: 35px;
@@ -829,7 +829,7 @@ a {
 }
 
 
-.icon-pub img{
+.icon-illu3 img{
     position: relative;
     margin-left: 140px;
     margin-top:50px;
@@ -837,8 +837,8 @@ a {
 }
 
 
-/*gala*/
-.title-gala h4{
+/*lola*/
+.lola h4{
     display: block;
     margin-bottom: 15px;
     margin-top: 55px;
@@ -851,7 +851,7 @@ a {
     top: 35px;
 }
 
-.gala img{
+.illu-lola img{
     display: block;
     position:relative;
     top: 35px;
@@ -861,7 +861,7 @@ a {
 }
 
 
-.bde p{
+.lola p1{
     display: block;
     margin-left: 65px;
     text-align: center;
@@ -872,10 +872,70 @@ a {
 }
 
 
-.icon-psd img{
+.icon-illu2 img{
     display: block;
    position: relative;
     margin-left: 275px;
+    margin-top:50px;
+    width: 50px;
+}
+
+/*andrea*/
+.title-andrea h4{
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 55px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: 35px;
+}
+
+.andrea1 img{
+    display: block;
+    position:relative;
+    top: 35px;
+    margin-bottom: 95px;
+    margin-left: -80px;
+    width: 300px;
+}
+
+.andrea2 img{
+    display: block;
+    position:relative;
+    margin-bottom: 95px;
+    margin-left: -70px;
+    top: auto;
+    width: 400px;
+}
+
+.andrea3 img{
+    display: block;
+    position:relative;
+    margin-bottom: 95px;
+    margin-left: 30px;
+    
+    width: 250px;
+}
+
+.title-andrea p1{
+    display: block;
+    margin-left: 65px;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    top:40px;
+    font-family: 'Raleway';
+}
+
+
+.icon-illu1 img{
+    display: block;
+   position: relative;
+    left: 30px;
     margin-top:50px;
     width: 50px;
 }
