@@ -1,0 +1,1437 @@
+/* DOCUMENT INFORMATION 
+    - Document: portfolio
+    - Version : 1.0.0
+    - Author : Laureen
+*/
+
+
+
+/* COLORS
+    - Defaut body text #000
+    - H1 #000
+    - H2 #000
+    - H3 #000
+
+    - Background #f0d3bd
+    - Hover contact #ffe5d8
+    - Hover Menu #D8C5BF
+
+    - Icones compétences #000
+    - Icones contact #000
+
+    - Border #33211c
+
+    - Background présentation #D8C5BF
+    - Background contact #D8C5BF
+*/
+
+
+
+
+/* FONTS
+    - H1    Yesava One
+    - H2    Prata
+    - H3    Petit Formal Script
+    - H4    Cormorant Garamond
+    - P     Raleway
+    - P1    Raleway
+    - P2    Raleway
+*/
+
+
+
+
+/*CSS DIRECTORY
+    1. =GLOBAL
+    2. =HEADER
+    3. =PRESENTATION
+    4. =COMPETENCES
+    5. =IMG TUILERIE STATUE
+    6. =LOGICIELS
+    7. =SEPARATION
+    8. =REALISATIONS
+    9. =IMG TUILERIE SUNSET
+    10. =CONTACT
+    11. =FOOTER
+    12. =MENU
+
+PAGES:
+    1. =STUDIENT UNION
+    2. =CHRISTMAS
+    3. =BIRTHDAY
+    4. =HALLOWEEN
+    5. =NEW TRAVEL
+    6. =STORY INSTAGRAM
+*/
+
+
+
+
+/* GLOBAL
+==========================*/
+
+
+html {
+    background-color : #fff;
+}
+
+
+h1{
+    font-family:'Yesava One';
+    font-size: 80px;
+    color: black;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+
+h2{
+    font-family: 'Prata';
+    color: black;
+    font-weight: 150;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-size: 30px;
+}
+
+
+h3{
+    color: #000;
+    font-size: 25px;
+    margin-left:60px;
+    margin-top: 100px;
+    font-family: 'Petit Formal Script'; 
+}
+
+
+p{
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    line-height: 24px;
+}
+
+
+
+
+/* HEADER
+==========================*/
+
+
+header{
+    background-image: url(../images/header.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-color:#fff;
+    background-attachment: fixed;
+    margin-top:70px;
+    
+    
+}
+
+
+.home-title h1{
+    position: absolute;
+    top:0;   
+}
+
+
+.home-title h2{
+    position: absolute;
+    text-align: center; 
+}
+
+
+
+
+/* PRESENTATION
+==========================*/
+
+
+.presentation{
+    background-color:#D8C5BF ;  
+}
+
+
+.presentation-img {
+    max-width: 90%;
+    height: auto;
+    margin-top: 0;
+    position: relative;
+    top: -40px;
+}
+
+
+.presentation h2{
+    margin-bottom: 0;
+    margin-top:35px;
+}
+
+
+.presentation h3{
+    margin-top: 30px;
+    margin-left: 0; 
+}
+
+
+
+
+/* COMPETENCES
+==========================*/
+
+
+.competence{
+    margin-bottom:35px;
+}
+
+
+.competence-icon{
+    font-size: 40px;
+    color:#e6dbdb;
+}
+
+
+.competence-icon h3{
+    max-width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 45px;   
+}
+
+
+.competence h2{
+    margin-top: 35px;
+}
+
+
+
+
+/* IMAGE TUILERIE STATUE
+==========================*/
+
+
+.image-tuilerie{
+    height: 75vh;
+    background-image: url(../images/paris/louvre-tuilerie-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+
+/* LOGICIELS
+==========================*/
+
+
+.logiciels{
+    margin-bottom: 120px;
+    border-right: 20px;
+}
+
+
+.logiciels h2{
+    font-size: 30px;
+}
+
+
+
+.logiciels h3{
+    font-family:'Petit Formal Script';
+    max-width: 100%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 45px;
+    font-size: 17.49px;
+}
+
+
+.logiciels h4{
+    font-family :'Cormorant Garamond';
+    font-size: 20px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 45px;
+    
+}
+
+
+
+.logiciels p{
+    max-height: 100%;
+    font-size: 12px;
+    
+    
+}
+
+
+.bar{
+    width: 160px;
+    height: 1em;
+    border-radius: 0.5em;
+    position: relative;
+    background: #f2f2f2;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);  
+}
+
+
+.bar .percentage {
+    position: relative;
+    font-size: 1em;
+    background: #D8C5BF;
+    height: 1em;
+    border-radius: 0.5em;
+}
+
+
+.has-tip:before,
+.has-tip:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+  }
+
+
+.has-tip:before {
+    bottom: -10px;
+    right: -5px;
+    border: 5px solid;
+    border-color: transparent transparent transparent;
+    transition: opacity 0.1s;
+  }
+
+
+ .has-tip:after {
+    content: attr(data-perc);
+    bottom: 0;
+    right: 0;
+    white-space: nowrap;
+    padding: 0.6em 1em;
+    border-radius: 2em;
+    line-height: 1;
+    color: #fff;
+    background: #d3a389;
+    transform: translateX(50%) translateY(100%);
+    transition: transform 0.2s, opacity 0.1s;
+  }
+
+
+.has-tip:hover:before,
+.has-tip.active:before {
+    opacity: 1;
+}
+
+
+.has-tip:hover:after,
+.has-tip.active:after {
+    opacity: 1;
+    transform: translateX(50%) translateY(100%) translateY(10px);
+}
+
+
+
+
+/* SEPARATION
+==========================*/
+
+.separation{
+	background: #D8C5BF;
+	}
+
+
+
+
+/* REALISATIONS
+==========================*/
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background-color: white;
+    margin-bottom: 35px; 
+}
+
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 50px 20px;
+}
+
+
+.hovereffect img {
+    margin-top: 35px;
+    display: block;
+    position: relative;
+    max-width: 100%;
+    width: calc(100% + 20px);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-10px,0,0);
+    transform: translate3d(-10px,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+.hovereffect:hover img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);  
+}
+
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    overflow: hidden;
+    padding: 0.5em 0;
+    background-color: transparent;
+}
+
+
+.hovereffect h2:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #D8C5BF;
+    content: '';
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.5s;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+}
+
+
+.hovereffect:hover h2:after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
+.hovereffect a, .hovereffect p {
+    color: #000;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+    font-family:'Yesava One';
+    font-size: 20px; 
+}
+
+
+.hovereffect:hover a, .hovereffect:hover p {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    color: #000;
+}
+
+
+
+
+/* IMAGE TUILERIE SUNSET
+==========================*/
+
+
+.louvre-tuilerie{
+    height: 80vh;
+    background-image: url(../images/paris/sunset-tuilerie-2.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+
+/* CONTACT
+==========================*/
+.cv {
+    background-color:#ffff;
+}
+
+.cv img{
+    margin-left: 250px;
+    margin-bottom: 55px;
+    margin-top: 35px;
+}
+
+
+/* CONTACT
+==========================*/
+
+.contact{
+    background-color: white;
+}
+
+
+.contact h3{
+    display: block;
+    font-size: 27px;
+    position: relative;
+    margin-bottom: 35px;
+    margin-left: 0;
+    margin-top: 35px;
+   
+}
+
+
+.mail p{
+    display: block;
+    font-size: 15px;
+    font-family: 'Raleway';
+    position: relative;
+    text-align: left;
+}
+
+.numero p{
+    display: block;
+    font-size: 15px;
+    font-family: 'Raleway';
+    position: relative;
+    text-align: left;
+}
+
+.adresse p{
+    display: block;
+    font-size: 15px;
+    font-family: 'Raleway';
+    position: relative;
+    text-align: left;
+}
+
+.picto{
+    display: block;
+    font-size: 20px;
+    margin-top: 0px;
+    color: #000;
+    margin-left: -30px;
+}
+
+
+.contact {
+    font-family: 'Raleway';
+    background: white;
+    color: #000;
+    margin-top: 0px;
+    background-color: #D8C5BF;
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+
+/* FOOTER
+==========================*/
+
+
+footer{
+    background-color: #D8C5BF;
+    color: #000;
+    height: 60px;
+    padding: 20px 20px 20px 20px;
+    position :relative;  
+}
+
+
+.copyright{
+    text-align: center;
+}
+
+
+.copyright a{
+    color:#000;
+}
+
+
+
+
+/* MENU
+==========================*/
+
+
+body {
+  
+    font-family:"Raleway";
+    background-color: #fff;
+    top: 0;
+}
+
+
+a {
+    color: #D8C5BF;
+}
+
+
+/* header */
+.nav{
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 #D8C5BF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+
+.nav ul {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+    position:static;
+}
+
+
+.nav li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid transparent;
+    text-decoration: none;
+}
+
+
+
+.nav .menu-btn:hover {
+  background-color: transparent;
+}
+
+
+.nav li a:hover{
+  color: #9d745e;
+}
+
+
+.nav .logo img{
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 245px;
+    position: absolute;
+    top: -50px;
+    left: 0px;
+}
+
+
+/* menu */
+.nav .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+
+/* menu icon */
+.nav .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 30px ;
+    position: relative;
+    align-content: flex-start;
+    user-select: none;
+    width: 50px;
+}
+	
+
+.nav .menu-icon .navicon {
+    background: #D8C5BF;
+    display: block;
+    height: 2px;
+    position: relative;
+    left: auto;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+
+.nav .menu-icon .navicon:before,
+.nav .menu-icon .navicon:after {
+    background: #D8C5BF;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+
+.nav .menu-icon .navicon:before {
+    top: 5px;
+}
+
+
+.nav .menu-icon .navicon:after {
+    top: -5px;
+}
+
+
+/* menu btn */
+.nav .menu-btn {
+    display: none;
+    padding-left: 100px;
+}
+
+
+.nav .menu-btn:checked ~ .menu {
+    max-height: 240px;
+}
+
+
+.nav .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+}
+
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+
+.nva .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+
+/* 48em = 768px */
+@media (min-width: 48em) {
+.nav li {
+    float: left;
+}
+  
+  
+.nav li a {
+    padding: 20px 30px;
+    color: #D8C5BF;  3. 
+}
+  
+  
+.nav .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+}
+  
+  
+.header .menu-icon {
+    display: none;
+}
+}
+
+
+                                /*============================
+                                            PAGES
+                                ============================*/
+
+
+
+/* illustrations
+==========================*/
+
+.illu h3{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Prata';
+}
+
+
+/*intro*/
+.illu p2{
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: 'Raleway';
+}
+
+
+.illu p3{
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    margin-left: 55px;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+/*moi*/
+.my-self h4{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 55px;
+    margin-left: -135px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 65px;
+    top: 35px;
+}
+
+
+.illu p1{
+    display: block;
+    margin-left: 0px;
+    text-align: center;
+    position: relative;
+    top:55px; 
+    font-family: 'Raleway';
+}
+
+
+.illu img{
+    display: block;
+    position:relative;
+    top: 35px;
+    margin-bottom: 65px;
+    margin-right: 0px;
+    margin-left: 130px;
+    width: 300px; 
+}
+
+
+.icon-illu3 img{
+    position: relative;
+    margin-left: 140px;
+    margin-top:50px;
+    width: 50px;
+}
+
+
+/*lola*/
+.lola h4{
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 55px;
+    margin-left: -50px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 155px;
+    top: 35px;
+}
+
+.illu-lola img{
+    display: block;
+    position:relative;
+    top: 35px;
+    margin-bottom: 95px;
+    margin-left: 250px;
+    width: 300px;
+}
+
+
+.lola p1{
+    display: block;
+    margin-left: 65px;
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top:40px;
+    font-family: 'Raleway';
+}
+
+
+.icon-illu2 img{
+    display: block;
+   position: relative;
+    margin-left: 275px;
+    margin-top:50px;
+    width: 50px;
+}
+
+/*andrea*/
+.title-andrea h4{
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 55px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: 35px;
+}
+
+.andrea1 img{
+    display: block;
+    position:relative;
+    top: 35px;
+    margin-bottom: 95px;
+    margin-left: -80px;
+    width: 300px;
+}
+
+.andrea2 img{
+    display: block;
+    position:relative;
+    margin-bottom: 95px;
+    margin-left: -70px;
+    top: auto;
+    width: 400px;
+}
+
+.andrea3 img{
+    display: block;
+    position:relative;
+    margin-bottom: 95px;
+    margin-left: 30px;
+    
+    width: 250px;
+}
+
+.title-andrea p1{
+    display: block;
+    margin-left: 65px;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    top:40px;
+    font-family: 'Raleway';
+}
+
+
+.icon-illu1 img{
+    display: block;
+   position: relative;
+    left: 30px;
+    margin-top:50px;
+    width: 50px;
+}
+
+
+
+
+/* CHRISTMAS
+==========================*/
+
+.christmas h3{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Prata';
+}
+
+
+.christmas h4{
+    display: block;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: 45px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: 35px;
+}
+
+
+/*intro*/
+.christmas p3{
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    margin-left: 55px;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+
+.title-christmas h4{
+    display: block;
+    text-align: start;
+    margin-left: -50px;
+    margin-bottom: 0px;
+}
+
+
+.christmas p1{
+    display: block;
+    margin-left: 5px;
+    text-align: center;
+    position: relative;
+    top:80px; 
+    font-family: 'Raleway';
+}
+
+
+.christmas img{
+    display: block;
+    position:relative;
+    top: 35px;
+    margin-bottom: 95px;
+    margin-right: 40px;
+    margin-left: 135px;
+    width: 300px; 
+}
+
+
+.icon img{
+    position: relative;
+    margin-left: 90px;
+    margin-top:35px;
+    width: 50px;
+    top: 135px;
+    left: -50px;
+}
+
+
+
+/* HALLOWEEN
+==========================*/
+
+.halloween h3{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Prata';
+    margin-bottom: 0px;
+}
+
+/*intro*/
+.halloween p3{
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    margin-left: 55px;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+
+.halloween h4{
+    display: block;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: 45px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: 35px;
+}
+
+
+/*party*/
+.title-halloween h4{
+    display: block;
+    text-align: start;
+    margin-left: -150px;
+    margin-top: 70px;
+}
+
+.halloween p1{
+    display: block;
+    margin-left: -155px;
+    text-align: center;
+    position: relative;
+    top:35px; 
+    font-family: 'Raleway';
+}
+
+
+.halloween img{
+    display: block;
+    position:relative;
+    top: 35px;
+    left: 95px;
+    margin-bottom: 65px;
+    margin-right: 40px;
+    width: 300px; 
+}
+
+
+.un-icon img{
+    display: block;
+    position: relative;
+    margin-left: -35px;
+    margin-top:75px;
+    margin-bottom: 35px;
+    width: 50px;
+}
+
+
+/*gif*/
+.gif img{
+    display: block;
+    position:relative;
+    top: 35px;
+    margin-bottom: 95px;
+    margin-left: 0px;
+    width: 500px;
+}
+
+.title-gif h4{
+    display: block;
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.halloween p{
+    display: block;
+    margin-left: 65px;
+    text-align: center;
+    position: relative;
+    left: 25px;
+    top:35px;
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+
+.deux-icon img{
+    display: block;
+   position: relative;
+    margin-left: 100px;
+    margin-top:35px;
+    width: 50px;
+}
+
+
+
+
+/* LEVEL
+==========================*/
+
+.travel h3{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Prata';
+}
+
+
+.travel h4{
+    display: block;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: 45px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 30px;
+    top: 35px;
+}
+
+
+/*intro*/
+.travel p3{
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    margin-left: 55px;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+.travel p2{
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: 'Raleway';
+}
+
+
+/*final*/
+.title-final h4{
+    display: block;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: -55px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 30px;
+    top: 35px;
+}
+
+
+.final img{
+     display: block;
+    position: relative;
+    top: 75px;
+    bottom: 35px;
+    left: 40px;
+    width: 450px; 
+}
+
+
+.icon-il img{
+   position: relative;
+    margin-left: 245px;
+    margin-top:150px;
+    margin-bottom: 35px;
+    width: 50px;
+}
+
+
+/*couv*/
+.title-couv{
+    display: block;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: -65px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 30px;
+    
+    
+}
+
+
+.couverture img{
+     display: block;
+    position: relative;
+    top: 35px;
+    bottom: 35px;
+    left: 150px;;
+    width: 325px;
+}
+
+
+.icon-illu img{
+   position: relative;
+    margin-left: 290px;
+    margin-top:90px;
+    margin-bottom: 65px;
+    width: 50px;
+}
+
+
+
+
+/* STORY INSTAGRAM
+==========================*/
+
+
+.ig h3{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Prata';
+}
+
+
+.ig h4{
+    display: block;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: 45px;
+    font-size: 25px;
+    font-family: 'Petit Formal Script';
+    text-align: center;
+    position: relative;
+    left: 50px;
+    top: 35px;
+}
+
+
+/*intro*/
+.ig p3{
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    margin-left: 55px;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+
+.ig p2{
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: 'Raleway';
+}
+
+
+/*projet final*/
+.ig img{
+    display: block;
+    width: 600px;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+
+/*photo origine*/
+.title-photo-origine h4{
+    display: block;
+    position: relative;
+    margin-left: -165px;
+    margin-top: 0; 
+    
+}
+
+
+.photo-origine img{
+    display: block;
+    width: 300px;
+    position: relative;
+    margin-left: -60px; 
+    margin-right: 50px; 
+    margin-top: 70px;
+    
+}
+
+
+.icon-1 img{
+    display: block;
+    position: relative;
+    margin-left: 65px;
+    margin-top:100px;
+    margin-bottom: 35px;
+    width: 50px;
+}
+
+
+/*photo retouchée*/
+.title-photo-retouche h4{
+    display: block;
+    position: relative;
+    margin-left: -105px;
+    margin-top: 0;
+}
+
+
+.photo-retouche img{
+    display: block;
+    width: 300px;
+    position: relative;
+    margin-left: -30px; 
+    margin-right: 50px; 
+    margin-top: 70px;
+}
+
+
+.icon-2 img{
+    display: block;
+    position: relative;
+    margin-left: 100px;
+    margin-top:100px;
+    margin-bottom: 35px;
+    width: 50px;
+}
+
+
+/*photo montage*/
+.title-photo-montage h4{
+    display: block;
+    position: relative;
+    margin-left: -150x;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+
+.photo-montage img{
+    display: block;
+    width: 300px;
+    position: relative;
+    margin-left: 0px; 
+    margin-right: 50px; 
+    margin-top: 125px;
+}
+
+
+.icon-3 img{
+    display: block;
+    position: relative;
+    margin-left: 135px;
+    margin-top:145px;
+    margin-bottom: 35px;
+    width: 50px;
+}
+
+
+/*story*/
+.title-photo-story h4{
+    display: block;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+
+.photo-story img{
+     display: block;
+    width: 250px;
+    position: relative;
+    margin-left: 60px; 
+    margin-right: 50px; 
+    margin-top: 70px;
+}
+
+
+.icon-4 img{
+    display: block;
+    position: relative;
+    margin-left: 160px;
+    margin-top:55px;
+    margin-bottom: 65px;
+    width: 50px;
+}
+
+
+
+
+
+
